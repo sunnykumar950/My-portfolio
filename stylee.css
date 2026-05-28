@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: arial;
+}
+
+nav{
+    background: #222;
+    color:white;
+    padding: 20px;
+
+}
+.hero{
+    height: 90vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right, hsl(187, 51%, 65%), #516b80);
+    color:white;
+}
+.hero h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.hero p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.profile-pic{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+    margin-bottom:20px;
+
+    
+    box-shadow:0 4px 15px rgba(0,0,0,0.3);
+}
+.hire{
+margin-top:20px;
+padding: 12px 30px;
+font-size:18px;
+border:none;
+border-radius:30px;
+ background:rgb(97, 135, 71);
+    color:#2196f3;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.hire-btn:hover{
+    background:#222;
+    color:white;
+    transform:scale(1.05);
+}
+
+/* Skills Section */
+
+.skills{
+    padding:60px 20px;
+    background:#f4f4f4;
+    text-align:center;
+}
+
+.skills h2{
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+/* Skill Container */
+
+.skill-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+/* Skill Cards */
+
+.skill-card{
+    background:rgb(59, 184, 161);
+    padding:20px 40px;
+    border-radius:12px;
+    font-size:20px;
+    font-weight:bold;
+
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+
+    transition:0.3s;
+}
+
+/* Hover Effect */
+
+.skill-card:hover{
+    transform:translateY(-8px);
+    background:#e34b10;
+    color:rgb(248, 248, 242);
+}
+/* About Section */
+
+.about{
+    padding:80px 20px;
+    background:rgb(244, 255, 254);
+    text-align:center;
+}
+
+.about h2{
+    font-size:40px;
+    margin-bottom:30px;
+    color:#222;
+}
+
+/* About Container */
+
+.about-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* About Text */
+
+.about-text{
+    max-width:700px;
+}
+
+.about-text p{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:20px;
+    color:#555;
+}
+
+/* Contact Section */
+
+.contact{
+    padding:80px 20px;
+    background:#0f172a;
+    color:white;
+    text-align:center;
+}
+
+.contact h2{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.contact-text{
+    font-size:18px;
+    margin-bottom:30px;
+    color:#ccc;
+}
+
+/* Contact Info */
+
+.contact-info p{
+    margin:12px 0;
+    font-size:18px;
+}
+
+/* Contact Button */
+
+.contact-btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:12px 30px;
+    background:#2196f3;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-size:18px;
+
+    transition:0.3s;
+}
+
+/* Hover Effect */
+
+.contact-btn:hover{
+    background:white;
+    color:#2196f3;
+}
+
+/* Social Icons */
+
+.social-icons{
+    margin-top:30px;
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+/* Links */
+
+.social-icons a{
+    text-decoration:none;
+    color:white;
+
+    padding:12px 25px;
+
+    background:#1e293b;
+
+    border-radius:30px;
+
+    transition:0.3s;
+}
+
+/* Hover Effect */
+
+.social-icons a:hover{
+    background:#38bdf8;
+    transform:translateY(-5px);
+}
